@@ -14,6 +14,5 @@ rQRCode has a dependency of chunky_png in order to make PNG image QR codes (I *d
 
 Add
 
-`# environment.rb
-
-require 'rqrcode'`
+`# environment.rb`
+`require 'rqrcode'`
