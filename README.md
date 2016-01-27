@@ -8,12 +8,15 @@ How it do? ~~Magic!~~ Code stuffs!
 
 ## Installation
 
-`gem install rqrcode`
+**rails_app_name/Gemfile**
 
-rQRCode has a dependency of chunky_png in order to make PNG image QR codes (I *do not* have this working yet) aside from the basic HTML output
+Add `gem 'rqrcode'` to your Gemfile.
 
-Add `require 'rqrcode'` to your environment.rb file (located in: .../rails_app_name/config/environment.rb)
+**Terminal Command**
 
+`bundle install`
+
+FYI: rQRCode has a dependency of chunky_png in order to make PNG image QR codes (I *do not* have this working yet) aside from the basic HTML output.
 
 ## Usage
 
